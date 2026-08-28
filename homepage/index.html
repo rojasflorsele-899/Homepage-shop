@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BasicStore - Tu tienda de tecnología</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="topbar">
+        <p class="topbar__item">Need help? Call Us 1(223)344455</p>
+
+        <p class="topbar_item topbar_item--center">
+            Summer Sale Discount Off 60% Off
+            <a href="#shop">Shop Now</a>
+        </p>
+
+        <p class="topbar__item">
+            2-3 Business Days Delivery & Free Returns
+        </p>
+    </div>
+    <header class="site-header">
+
+        <a href="#" class="logo">
+            Basic<span>Store</span>.
+        </a>
+        <nav class="main-nav">
+            <a href="#" class="active">Home</a>
+            <a href="#">About</a>
+            <a href="shop.html" >Shop</a>
+            <a href="#">Blogs</a>
+            <a href="#">Pages</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="header-right">
+            <div class="header-icons">
+                <button aria-label="Buscar">
+                    <i class="bi bi-search"></i>
+                </button>
+                <button aria-label="Cuenta">
+                    <i class="bi bi-person"></i>
+                </button>
+                <button aria-label="Favoritos">
+                    <i class="bi bi-heart"></i>
+                </button>
+                <button aria-label="Carrito">
+                    <i class="bi bi-cart3"></i>
+                </button>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+
+            <img src="/img/iphone13.jpg"
+                 alt="iPhone 15 Series"
+                 class="hero__img">
+            <div class="hero__content">
+                <h1>Iphone 15 Series</h1>
+                <p>
+                    Limited Stocks Available. Grab It Now!
+                </p>
+                <a href="#shop"
+                   class="btn btn--light"
+                   style="color: #000;">
+                    Shop Collection
+                </a>
+            </div>
+            <div class="hero__dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+        <section class="categories" id="categories">
+            <h2 class="section-title" style="color: #000;">
+                Our Categories
+            </h2>
+            <div class="categories__grid">
+                <article class="category-card">
+                    <img src="img/airpods.jpg" alt="Air Pods">
+                    <h3>Air Pods</h3>
+                    <p>(6 Items)</p>
+                </article>
+                <article class="category-card">
+                    <img src="img/smartwatchees.jpg" alt="Smart Watches">
+                    <h3>Smart Watches</h3>
+                    <p>(12 Items)</p>
+                </article>
+                <article class="category-card">
+                    <img src="img/laptops.jpg" alt="Laptops">
+                    <h3>Laptops</h3>
+                    <p>(3 Items)</p>
+                </article>
+                <article class="category-card">
+                    <img src="img/mobil;eph.jpg" alt="Mobile Phones">
+                    <h3>Mobile Phones</h3>
+                    <p>(9 Items)</p>
+                </article>
+            </div>
+            <div class="categories__dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+        <!-- ===== BEST SELLING ===== -->
+<section class="products" id="shop">
+    <h2 class="section-title" style="color: black;">
+        Best Selling Items
+    </h2>
+    <div class="products__grid">
+        <!-- PRODUCTO 1 -->
+        <article class="product-card">
+            <div class="product-image">
+                <img src="img/playstation.png"
+                     alt="Sony PlayStation Move"
+                     style="transform: scale(2);">
+            </div>
+            <div class="product-info">
+                <h3>Sony PlayStation Move</h3>
+                <p class="price">$870</p>
+            </div>
+
+        </article>
+        <!-- PRODUCTO 2 -->
+        <article class="product-card">
+
+            <div class="product-image">
+                <img src="img/gopro.png" style="transform: scale(2);"
+                     alt="GoPro">
+            </div>
+            <div class="product-info">
+                <h3>GoPro</h3>
+                <p class="price">$600</p>
+            </div>
+        </article>
+        <!-- PRODUCTO 3 -->
+        <article class="product-card">
+            <div class="product-image">
+                <img src="img/airpods pro.png"
+                     alt="AirPods Pro">
+            </div>
+            <div class="product-info">
+                <h3>AirPods Pro</h3>
+                <p class="price">$400</p>
+            </div>
+        </article>
+        <!-- PRODUCTO 4 -->
+        <article class="product-card">
+            <div class="product-image">
+                <img src="img/iphone15.png"
+                     alt="Iphone 15 Pro">
+            </div>
+            <div class="product-info">
+                <h3>Iphone 15 Pro</h3>
+                <p class="price">$2000</p>
+            </div>
+        </article>
+        <!-- PRODUCTO 5 -->
+        <article class="product-card">
+            <div class="product-image">
+                <img src="img/macbook.png"
+                     alt="Apple MacBook Pro">
+            </div>
+            <div class="product-info">
+                <h3>Apple MacBook Pro</h3>
+                <p class="price">$3000</p>
+            </div>
+        </article>
+        <!-- PRODUCTO 6 -->
+        <article class="product-card">
+         <div class="product-image">
+                <img src="img/aphone x pro.png"
+                     alt="Iphone X Pro">
+            </div>
+            <div class="product-info">
+                <h3>Iphone X Pro</h3>
+                <p class="price">$900</p>
+            </div>
+        </article>
+        <!-- PRODUCTO 7 -->
+        <article class="product-card">
+            <div class="product-image">
+                <img src="img/playstation5.png"
+                     alt="PlayStation 5">
+            </div>
+            <div class="product-info">
+                <h3>PlayStation 5</h3>
+                <p class="price">$750</p>
+            </div>
+        </article>
+        <!-- PRODUCTO 8 -->
+        <article class="product-card">
+            <div class="product-image">
+                <img src="img/gimball.png"
+                     alt="Gimbal Parts"
+                     style="transform: rotate(-90deg) scale(1.15);">
+            </div>
+            <div class="product-info">
+                <h3>Gimbal Parts</h3>
+                <p class="price">$250</p>
+            </div>
+        </article>
+    </div>
+    <a href="shop.html"
+       class="btn btn--dark btn--center"
+       style="background-color: #000;">
+        Go To Shop
+    </a>
+</section>
+        <section class="promo-banners">
+            <article class="promo-card">
+                <img src="img/mrcas.jpg" alt="20% Off On Laptops">
+                <div class="promo-card__content">
+                    <h3>20% Off On Laptops</h3>
+                    <p>
+                        Products On Sale For Limited Time Only.
+                    </p>
+                    <a href="#" class="btn btn--light">
+                        Shop It Now
+                    </a>
+                </div>
+            </article>
+            <article class="promo-card">
+                <img src="img/marcaswh.jpg" alt="Apple Collections">
+                <div class="promo-card__content">
+                    <h3>Apple Collections</h3>
+                    <p>
+                        Get Your Best Apple Products.
+                    </p>
+                    <a href="#" class="btn btn--light">
+                        Shop Collection
+                    </a>
+                </div>
+            </article>
+        </section>
+        <section class="reviews">
+            <h2 class="section-title">
+                Our Customer's Review
+            </h2>
+            <div class="reviews__grid">
+                <article class="review-card">
+                    <p>
+                        "Tempus oncu enim pellen tesque este pretium in neque,
+                        elit morbi sagittis lorem habi mattis Pellen tesque
+                        pretium feugiat vel morbi suspen dise sagittis lorem habi."
+                    </p>
+                    <div class="review-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+                    <p class="author">
+                        Emma Chamberlin
+                    </p>
+                </article>
+                <article class="review-card">
+                    <p>
+                        "Tempus oncu enim pellen tesque este pretium in neque,
+                        elit morbi sagittis lorem habi mattis Pellen tesque
+                        pretium feugiat vel morbi suspen dise sagittis lorem habi."
+                    </p>
+                   <div class="review-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+                    <p class="author">
+                        Thomas John
+                    </p>
+                </article>
+                <article class="review-card">
+                    <p>
+                        "Tempus oncu enim pellen tesque este pretium in neque,
+                        elit morbi sagittis lorem habi mattis Pellen tesque
+                        pretium feugiat vel morbi suspen dise sagittis lorem habi."
+                    </p>
+                    <div class="review-stars">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+            </div>
+                    <p class="author">
+                        Kevin Bryan
+                    </p>
+                </article>
+            </div>
+            <div class="reviews__dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </section>
+        <section class="blog" id="blog">
+            <h2 class="section-title">
+                Latest Posts
+            </h2>
+            <div class="blog__grid">
+                <article class="blog-card">
+                    <img src="img/technology.jpg"
+                         alt="Technology Hack That You Don't Know">
+                    <p class="blog-card__meta">
+                        Feb 22, 2024 - Technology
+                    </p>
+                    <h3>
+                        Technology Hack That You Don't Know
+                    </h3>
+                </article>
+                <article class="blog-card">
+
+                    <img src="img/bestdigit.jpg"
+                         alt="Best Digital Watches To Buy This Year">
+
+                    <p class="blog-card__meta">
+                        Feb 22, 2024 - Watches
+                    </p>
+
+                    <h3>
+                        Best Digital Watches To Buy This Year
+                    </h3>
+                </article>
+                <article class="blog-card">
+
+                    <img src="img/takevideo.jpg"
+                         alt="How To Use Gimbal To Take Video">
+                    <p class="blog-card__meta">
+                        Feb 22, 2024 - Gadgets
+                    </p>
+                    <h3>
+                        How To Use Gimbal To Take Video
+                    </h3>
+                </article>
+            </div>
+            <a href="#" class="btn btn--dark btn--center">
+                Read Blogs
+            </a>
+        </section>
+        <section class="benefits">
+            <article class="benefit-card">
+                <p class="benefit-card__icon">
+            <i class="bi bi-cart3"></i>
+        </p>
+                <h3>Free Delivery</h3>
+                <p>
+                    Consectetur adipi ipsum dolor sit amet.
+                </p>
+            </article>
+            <article class="benefit-card">
+                <p class="benefit-card__icon">
+            <i class="bi bi-trophy"></i>
+        </p>
+                <h3>Quality Guarantee</h3>
+                <p>
+                    Dolor sit amet orem ipsu mcons ectetur adipi elit.
+                </p>
+            </article>
+            <article class="benefit-card">
+                <p class="benefit-card__icon">
+            <i class="bi bi-tag"></i>
+        </p>
+                <h3>Daily Offers</h3>
+
+                <p>
+                    Amet consectetur adipi elit loreme ipsum dolor sit.
+                </p>
+            </article>
+            <article class="benefit-card">
+                <p class="benefit-card__icon">
+            <i class="bi bi-check-circle"></i>
+        </p>
+                <h3>100% Secure Payment</h3>
+                <p> Rem Lopsum dolor sit amet, consectetur adipi elit.</p>
+            </article>
+        </section>
+        <section class="newsletter">
+            <h2>Subscribe Us Now</h2>
+            <p>
+                Get Latest News, Updates And Deals Directly Mailed To Your Inbox.
+            </p>
+            <form class="newsletter__form">
+                <input type="email"
+                       placeholder="Your email address here"
+                       required>
+                <button type="submit">
+                    Subscribe
+                </button>
+            </form>
+        </section>
+        <section class="instagram">
+            <h2 class="section-title">
+                Shop Our Insta
+            </h2>
+            <div class="instagram__grid">
+                <img src="img/cel1.jpg" alt="Producto Instagram 1">
+                <img src="img/celf.jpg" alt="Producto Instagram 2">
+                <img src="img/cel3.jpg" alt="Producto Instagram 3">
+                <img src="img/c4.jpg" alt="Producto Instagram 4">
+                <img src="img/cel5.jpg" alt="Producto Instagram 5">
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer__col">
+            <a href="#"
+               class="logo"
+               style="color: orange;">
+                Basic<span style="color: black;">
+                    Store
+                </span>.
+            </a>
+            <p> Nisi, purus vitae, ultrices nunc. Sit ac<br> sit suscipit hendrerit. Gravida massa<br> volutpat aenean odio erat nullam<br> fringilla.</p>
+            <div class="footer__socials">
+    <a href="" aria-label="Facebook">
+        <i class="bi bi-facebook"></i>
+    </a>
+    <a href="#" aria-label="Instagram">
+        <i class="bi bi-instagram"></i>
+    </a>
+    <a href="#" aria-label="Twitter">
+        <i class="bi bi-twitter-x"></i>
+    </a>
+    <a href="#" aria-label="LinkedIn">
+        <i class="bi bi-linkedin"></i>
+    </a>
+    <a href="#" aria-label="YouTube">
+        <i class="bi bi-youtube"></i>
+    </a>
+      </div>
+        </div>
+        <nav class="footer__col">
+            <h4>Quick Links</h4>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Shop</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact</a>
+        </nav>
+         <nav class="footer__col">
+            <h4>Help & Info</h4>
+            <a href="#">TRACK YOUR ORDER</a>
+            <a href="#">RETURNS POLICIES</a>
+            <a href="#">SHIPPING + DELIVERY</a>
+            <a href="#">CONTACT US</a>
+            <a href="#">FAQS</a>
+        </nav>
+         <nav class="footer__col">
+            <h4>Contact Us</h4>
+            <p>Do you have any queries or <br>suggestions? <br><u>yourinfo@gmail.com</u> <br> If you need support? Just<br> give us a call.
+                <br> <u>+55 111 222 333 44</u>
+            </p>
+        </nav>
+        <div class="footer__bottom">
+    <p>
+        We ship with:
+        <i class="bi bi-truck"></i>
+        <i class="bi bi-box-seam"></i>
+        <i class="bi bi-box-seam"></i>
+    </p>
+    <p style="margin-right: 155px;">
+        Payment options:
+        <i class="bi bi-credit-card"></i>
+        <i class="bi bi-credit-card-2-front"></i>
+        <i class="bi bi-wallet2"></i>
+    </p>
+    <p>
+        © Copyright 2024 BasicStore. Design by TemplatesJungle
+    </p>
+</div>
+    </footer>
+<script src="scrpt.js"></script>
+</body>
+</html>
+
